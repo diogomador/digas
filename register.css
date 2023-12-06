@@ -74,6 +74,7 @@ body *{
     justify-content: center;
     width: 100%;
     margin: 10px 0px;
+    position: relative;
 }
 
 .textfield > input, select{
@@ -98,6 +99,15 @@ body *{
     color: #f0ffff94;
 }
 
+i{
+    position: absolute;
+    right: 1vh;
+    top: 4vh;
+}
+
+i img{
+    max-width: 30px;
+}
 
 .btn-login{
     width: 100%;
